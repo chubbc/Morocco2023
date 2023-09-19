@@ -158,7 +158,6 @@ class Title(SlideScene):
 
         self.play(toc[-1].animate.scale(1/1.2).set_color(WHITE))
 
-
 class Results(SlideScene):
     def construct(self):
         tocindex=0
@@ -167,7 +166,7 @@ class Results(SlideScene):
         toc.save_state()
         self.play(
             toc.animate.set_opacity(0),
-            heading.animate.scale(2).to_corner(UP).set_x(0),
+            heading.animate.scale(1.5).to_corner(UP).set_x(0),
         )
         heading.set_opacity(1)
         self.slide_break()
@@ -385,7 +384,7 @@ class HT(SlideScene):
         toc.save_state()
         self.play(
             toc.animate.set_opacity(0),
-            heading.animate.scale(2).to_corner(UP).set_x(0),
+            heading.animate.scale(1.5).to_corner(UP).set_x(0),
         )
         heading.set_opacity(1)
         self.slide_break()
@@ -728,7 +727,7 @@ class Reduction(SlideScene):
         toc.save_state()
         self.play(
             toc.animate.set_opacity(0),
-            heading.animate.scale(2).to_corner(UP).set_x(0),
+            heading.animate.scale(1.5).to_corner(UP).set_x(0),
         )
         heading.set_opacity(1)
         self.slide_break()
@@ -1077,7 +1076,7 @@ class Rates(SlideScene):
         toc.save_state()
         self.play(
             toc.animate.set_opacity(0),
-            heading.animate.scale(2).to_corner(UP).set_x(0),
+            heading.animate.scale(1.5).to_corner(UP).set_x(0),
         )
         heading.set_opacity(1)
         self.slide_break()
@@ -1365,7 +1364,7 @@ class Conclusion(SlideScene):
         toc.save_state()
         self.play(
             toc.animate.set_opacity(0),
-            heading.animate.scale(2).to_corner(UP).set_x(0),
+            heading.animate.scale(1.5).to_corner(UP).set_x(0),
         )
         heading.set_opacity(1)
         self.slide_break()
