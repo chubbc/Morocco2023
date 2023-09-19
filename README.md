@@ -1,7 +1,7 @@
-Allows for a <a href="https://github.com/hakimel/reveal.js/">reveal.js</a> presentation consisting of queued up Manim animations. Based on <a href="https://github.com/anjandn/manim_reveal">anjandn/manim_reveal</a>, but updated to work with ManimCE 0.7.0 (manim_reveal was broken by manim updates).
+Submitted talk given at <a href="https://quantummorocco.com/">Quantum Morocco 2023</a>.</br>
 
-Go <a href="https://christopherchubb.com/manim_slides">here</a> for a live demonstration of it working.
-
-Manim code is put into <code>./talk.py</code>, and the corresponding slides need to be put into <code>./index.html</code>. To compile the manim videos for slide X run <code>manimce talk.py X</code>.
-
-To view a local copy you must run <code>npm start</code> on the local copy.
+<b>Title:</b> <a href="https://arxiv.org/abs/2303.05524">Quantum dichotomies and coherent thermodynamics</a> </br>
+<b>Authors:</b> Patryk Lipka-Bartosik, <i>CTC</i>, Joseph M. Renes, Marco Tomamichel, Kamil Korzekwa</br>
+<b>Location:</b> Faculty of Sciences, Mohammed V University, Rabat, Morocco :morocco: </br>
+<b>Date:</b> 2023-09-19</br>
+<b>Live slides:</b> <a href="https://christopherchubb.com/Morocco2023">christopherchubb.com/Morocco2023</a></br>
